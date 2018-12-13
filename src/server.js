@@ -35,14 +35,8 @@ app.use((req, res, next) => {
 
 // For ease of this tutorial, we are going to use SQLite to limit dependencies
 let database = new Sequelize({
-    dialect: 'mssql',
-    dialectModulePath: 'sequelize-msnodesqlv8',
-    dialectOptions: {
-        instanceName: 'MSSQLSERVER01',
-        trustedConnection: true  
-    },
-    host: 'localhost',
-    database: 'VueTestDb'
+  dialect: 'sqlite',
+  storage: './test.sqlite'
 })
 
 // Define our Post model

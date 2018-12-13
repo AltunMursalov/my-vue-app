@@ -18,6 +18,7 @@
     "cors": "^2.8.4",
     "epilogue": "^0.7.1",
     "sequelize": "^4.37.6",
+    "sqlite3": "^4.0.4",
     "tedious": "^1.7.0",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
